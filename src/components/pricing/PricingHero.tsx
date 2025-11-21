@@ -1,10 +1,19 @@
 import { Shield, Clock, CheckCircle2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import logoImage from "@/assets/dose-academy-logo.png";
 
 const PricingHero = () => {
   return (
     <section className="py-20 px-4 bg-background">
       <div className="container mx-auto max-w-4xl text-center">
+        <div className="mb-8 flex justify-center">
+          <img 
+            src={logoImage} 
+            alt="DOSE Academy Logo" 
+            className="h-20 w-20"
+          />
+        </div>
+        
         <h1 className="text-5xl font-bold mb-6 text-foreground">
           Flexible Pricing for Every Family
         </h1>
