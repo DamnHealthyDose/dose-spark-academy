@@ -1,4 +1,4 @@
-import { Brain } from "lucide-react";
+import logoImage from "@/assets/dose-academy-logo.png";
 
 const Footer = () => {
   return (
@@ -6,10 +6,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="bg-gradient-hero p-2 rounded-lg">
-                <Brain className="h-5 w-5 text-primary-foreground" />
-              </div>
+            <div className="flex items-center gap-3 mb-4">
+              <img 
+                src={logoImage} 
+                alt="DOSE Academy Logo" 
+                className="h-10 w-10"
+              />
               <span className="font-bold text-foreground">DOSE Academy</span>
             </div>
             <p className="text-sm text-muted-foreground">
