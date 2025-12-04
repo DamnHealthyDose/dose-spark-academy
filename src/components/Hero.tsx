@@ -68,7 +68,7 @@ const Hero = () => {
               <img 
                 src={mascotImage} 
                 alt="DOSE Academy Mascot" 
-                className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 animate-bounce-gentle drop-shadow-2xl"
+                className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 animate-bounce-gentle drop-shadow-2xl cursor-pointer transition-all duration-300 hover:scale-110 hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] hover:animate-none active:scale-95"
               />
             </div>
           </div>
