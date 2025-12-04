@@ -96,6 +96,10 @@ export default {
           "0%, 100%": { transform: "translateY(0) rotate(-3deg)" },
           "50%": { transform: "translateY(-15px) rotate(3deg)" },
         },
+        "wiggle": {
+          "0%, 100%": { transform: "rotate(-5deg)" },
+          "50%": { transform: "rotate(5deg)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
