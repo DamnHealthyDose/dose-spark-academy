@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 import logoImage from "@/assets/dose-academy-logo.png";
-import mascotImage from "@/assets/dose-mascot.png";
+import mascotImage from "@/assets/dose-mascot-male.png";
 
 const Hero = () => {
   return (
