@@ -25,10 +25,10 @@ const Hero = () => {
               </div>
               
               <h1 className="mb-6 text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl animate-fade-in">
-                Master Your ADHD,
+                Learn Evidence-Based
                 <br />
                 <span className="bg-gradient-hero bg-clip-text text-transparent">
-                  Own Your Success
+                  ADHD Tools Ages 10-17
                 </span>
               </h1>
               
