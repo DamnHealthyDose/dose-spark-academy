@@ -5,7 +5,6 @@ import SchoolIntegration from "@/components/SchoolIntegration";
 import SafetyTrust from "@/components/SafetyTrust";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
-import SlickChat from "@/components/SlickChat";
 
 const Index = () => {
   return (
@@ -19,7 +18,6 @@ const Index = () => {
         <CTA />
       </main>
       <Footer />
-      <SlickChat />
     </div>
   );
 };
