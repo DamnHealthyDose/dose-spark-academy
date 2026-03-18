@@ -14,8 +14,18 @@ const CHAT_URL = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/slick-chat`;
 
 const GREETING = "Hey there! 👋 I'm Slick, your ADHD sidekick at DOSE Academy! What can I help you with today?";
 
-const SlickChat = () => {
-  const [isOpen, setIsOpen] = useState(false);
+interface SlickChatProps {
+  isOpen?: boolean;
+  onOpenChange?: (open: boolean) => void;
+}
+
+const SlickChat = ({ isOpen: controlledOpen, onOpenChange }: SlickChatProps) => {
+  const [internalOpen, setInternalOpen] = useState(false);
+  const isOpen = controlledOpen ?? internalOpen;
+  const setIsOpen = (v: boolean) => {
+    setInternalOpen(v);
+    onOpenChange?.(v);
+  };
   const [messages, setMessages] = useState<Message[]>([
     { role: "assistant", content: GREETING },
   ]);
