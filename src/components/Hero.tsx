@@ -64,12 +64,16 @@ const Hero = () => {
             </div>
             
             {/* Mascot */}
-            <div className="flex-shrink-0 animate-fade-in">
+            <div className="flex-shrink-0 animate-fade-in text-center">
               <img 
                 src={mascotImage} 
-                alt="DOSE Academy Mascot" 
+                alt="DOSE Academy Mascot - Slick" 
                 className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 animate-bounce-gentle drop-shadow-2xl cursor-pointer transition-all duration-300 hover:scale-110 hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] hover:animate-none active:scale-95"
               />
+              <h3 className="mt-4 text-2xl font-bold text-foreground">Meet Slick</h3>
+              <p className="mt-2 text-sm text-muted-foreground max-w-xs mx-auto">
+                Your AI companion ready to guide you through every step of the app.
+              </p>
             </div>
           </div>
         </div>
