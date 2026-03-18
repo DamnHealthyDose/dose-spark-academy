@@ -34,8 +34,8 @@ const Header = () => {
             <Button variant="ghost" className="text-foreground">
               Sign In
             </Button>
-            <Button className="bg-gradient-hero text-primary-foreground hover:opacity-90">
-              Get Started
+            <Button className="bg-gradient-hero text-primary-foreground hover:opacity-90" asChild>
+              <a href="https://app-doseacademy.vercel.app/" target="_blank" rel="noopener noreferrer">Get Started</a>
             </Button>
           </div>
         </div>
