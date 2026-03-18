@@ -42,9 +42,11 @@ const Hero = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center animate-fade-in">
-                <Button size="lg" className="bg-gradient-hero hover:opacity-90 text-primary-foreground shadow-medium group">
-                  Get Started Free
-                  <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                <Button size="lg" className="bg-gradient-hero hover:opacity-90 text-primary-foreground shadow-medium group" asChild>
+                  <a href="https://app-doseacademy.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    Get Started Free
+                    <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                  </a>
                 </Button>
                 <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-accent">
                   See How It Works

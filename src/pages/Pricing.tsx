@@ -100,9 +100,9 @@ const Pricing = () => {
             <h2 className="text-4xl font-bold mb-4">Ready to Transform Your Teen's ADHD Journey?</h2>
             <p className="text-xl mb-8 opacity-90">Family plans starting at $14.99/month</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 bg-background text-foreground rounded-lg font-semibold hover:bg-background/90 transition-colors">
+              <a href="https://app-doseacademy.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-background text-foreground rounded-lg font-semibold hover:bg-background/90 transition-colors">
                 Start Free Trial
-              </button>
+              </a>
               <button className="px-8 py-4 bg-transparent border-2 border-primary-foreground rounded-lg font-semibold hover:bg-primary-foreground/10 transition-colors">
                 Talk to Our Team
               </button>

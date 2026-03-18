@@ -18,9 +18,12 @@ const CTA = () => {
             <Button 
               size="lg" 
               className="bg-background text-primary hover:bg-background/90 shadow-large group"
+              asChild
             >
-              Start Free Today
-              <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              <a href="https://app-doseacademy.vercel.app/" target="_blank" rel="noopener noreferrer">
+                Start Free Today
+                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              </a>
             </Button>
             <Button 
               size="lg" 
