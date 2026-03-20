@@ -25,7 +25,7 @@ const Header = () => {
             <a href="/pricing" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
               Pricing
             </a>
-            <a href="/#safety" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/about" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
               About
             </a>
           </nav>
