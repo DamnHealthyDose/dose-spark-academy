@@ -26,7 +26,7 @@ const Header = () => {
               Pricing
             </a>
             <a href="/#safety" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              Safety
+              About
             </a>
           </nav>
           
