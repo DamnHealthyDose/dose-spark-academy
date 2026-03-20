@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, createContext } from "react";
 import Index from "./pages/Index";
 import Pricing from "./pages/Pricing";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import SlickChat from "./components/SlickChat";
 
@@ -26,6 +27,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/pricing" element={<Pricing />} />
+              <Route path="/about" element={<About />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
