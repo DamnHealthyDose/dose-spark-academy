@@ -15,7 +15,7 @@ const teamMembers = [
   },
   {
     name: "Lauren Paul",
-    role: "Co-Founder, Chief Marketing Officer",
+    role: "Co-Founder, Chief Branding Officer",
     bullets: [
       "Drives digital engagement and brand storytelling; proven track record elevating brands through high-impact marketing solutions",
       "Proven track record as a Brand leader with lived ADHD experience",
