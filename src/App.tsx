@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, createContext } from "react";
 import Index from "./pages/Index";
 import Pricing from "./pages/Pricing";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import SlickChat from "./components/SlickChat";
 
