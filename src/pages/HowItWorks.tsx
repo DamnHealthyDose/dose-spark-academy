@@ -107,7 +107,7 @@ const HowItWorks = () => {
       <Header />
 
       {/* Section 1 — Hero */}
-      <section className="w-full bg-[#0A1A1A] py-12 md:py-16">
+      <section className="w-full bg-background py-12 md:py-16">
         <div className="max-w-[680px] mx-auto px-5 text-center">
           <p
             className="text-xs uppercase tracking-[0.2em] text-primary mb-4 animate-fade-in"
@@ -116,13 +116,13 @@ const HowItWorks = () => {
             How It Works
           </p>
           <h1
-            className="text-3xl md:text-4xl font-extrabold text-white mb-4 animate-fade-in"
+            className="text-3xl md:text-4xl font-extrabold text-foreground mb-4 animate-fade-in"
             style={{ animationDelay: "150ms" }}
           >
             Open the app. Pick your tool. Your brain does the rest.
           </h1>
           <p
-            className="text-base text-[#A0CCCC] animate-fade-in"
+            className="text-base text-muted-foreground animate-fade-in"
             style={{ animationDelay: "300ms" }}
           >
             No setup. No account required for your first session. Under 2 minutes.
