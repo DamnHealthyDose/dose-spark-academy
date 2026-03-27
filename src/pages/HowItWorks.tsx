@@ -235,17 +235,17 @@ const HowItWorks = () => {
       </section>
 
       {/* Section 6 — Slick Callout */}
-      <section className="w-full bg-[#0A1A1A] py-10 px-5">
-        <div className="scroll-reveal opacity-0 transition-all duration-500 max-w-[600px] mx-auto bg-[#1A3333] border border-[#2a5555] rounded-2xl p-7 flex flex-col sm:flex-row items-center gap-5">
+      <section className="w-full bg-background py-10 px-5">
+        <div className="scroll-reveal opacity-0 transition-all duration-500 max-w-[600px] mx-auto bg-[#F0FAFA] border border-[#D0EEEE] rounded-2xl p-7 flex flex-col sm:flex-row items-center gap-5">
           <div className="w-[72px] h-[72px] rounded-full bg-primary flex items-center justify-center shrink-0 overflow-hidden">
             <img src={slickImage} alt="Slick" className="w-full h-full object-cover" />
           </div>
           <div className="text-center sm:text-left">
-            <p className="text-[11px] uppercase tracking-wider text-[#5A8888] mb-1">Slick says:</p>
-            <p className="text-base font-bold text-white mb-1">
+            <p className="text-[11px] uppercase tracking-wider text-muted-foreground mb-1">Slick says:</p>
+            <p className="text-base font-bold text-foreground mb-1">
               "You don't need to feel ready. Just open the app."
             </p>
-            <p className="text-xs text-[#A0CCCC]">
+            <p className="text-xs text-muted-foreground">
               Slick is your AI companion — available in every tool, every session.
             </p>
           </div>
@@ -253,14 +253,14 @@ const HowItWorks = () => {
       </section>
 
       {/* Section 7 — CTA Banner */}
-      <section className="w-full bg-[#0A1A1A] py-7 px-5">
+      <section className="w-full bg-[#F0FAFA] py-7 px-5">
         <div className="max-w-[960px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-center sm:text-left">
-            <h2 className="text-lg font-extrabold text-white">Ready to try it?</h2>
-            <p className="text-xs text-[#A0CCCC]">First 3 sessions free. No credit card required.</p>
+            <h2 className="text-lg font-extrabold text-foreground">Ready to try it?</h2>
+            <p className="text-xs text-muted-foreground">First 3 sessions free. No credit card required.</p>
           </div>
           <Button
-            className="bg-primary text-[#0A1A1A] font-bold rounded-full px-6 py-3 hover:bg-primary/90"
+            className="bg-primary text-primary-foreground font-bold rounded-full px-6 py-3 hover:bg-primary/90"
             asChild
           >
             <a href="https://app-doseacademy.vercel.app/" target="_blank" rel="noopener noreferrer">
