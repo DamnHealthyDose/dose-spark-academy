@@ -7,6 +7,7 @@ import { useState, createContext } from "react";
 import Index from "./pages/Index";
 import Pricing from "./pages/Pricing";
 import About from "./pages/About";
+import HowItWorks from "./pages/HowItWorks";
 import NotFound from "./pages/NotFound";
 import SlickChat from "./components/SlickChat";
 
