@@ -253,14 +253,14 @@ const HowItWorks = () => {
       </section>
 
       {/* Section 7 — CTA Banner */}
-      <section className="w-full bg-[#0A1A1A] py-7 px-5">
+      <section className="w-full bg-[#F0FAFA] py-7 px-5">
         <div className="max-w-[960px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-center sm:text-left">
-            <h2 className="text-lg font-extrabold text-white">Ready to try it?</h2>
-            <p className="text-xs text-[#A0CCCC]">First 3 sessions free. No credit card required.</p>
+            <h2 className="text-lg font-extrabold text-foreground">Ready to try it?</h2>
+            <p className="text-xs text-muted-foreground">First 3 sessions free. No credit card required.</p>
           </div>
           <Button
-            className="bg-primary text-[#0A1A1A] font-bold rounded-full px-6 py-3 hover:bg-primary/90"
+            className="bg-primary text-primary-foreground font-bold rounded-full px-6 py-3 hover:bg-primary/90"
             asChild
           >
             <a href="https://app-doseacademy.vercel.app/" target="_blank" rel="noopener noreferrer">
