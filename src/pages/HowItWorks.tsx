@@ -146,7 +146,7 @@ const HowItWorks = () => {
             Your browser does not support the video tag.
           </video>
           <p className="text-center text-sm font-bold text-foreground py-3 bg-muted">
-            How DOSE Academy works — 25 sec
+            How DOSE Academy works — 36 sec
           </p>
         </div>
       </section>
