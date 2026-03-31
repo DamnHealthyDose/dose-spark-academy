@@ -136,7 +136,10 @@ const HowItWorks = () => {
           <video
             className="w-full"
             controls
-            poster=""
+            muted
+            autoPlay
+            playsInline
+            loop
             preload="metadata"
           >
             <source src="/videos/dose-onboarding.mp4" type="video/mp4" />
