@@ -132,20 +132,19 @@ const HowItWorks = () => {
 
       {/* Section 2 — Video Placeholder */}
       <section className="w-full bg-white py-8 md:py-12 px-5">
-        <div className="max-w-[720px] mx-auto rounded-2xl bg-[#1A3333] border-2 border-dashed border-[#2a5555] overflow-hidden">
-          <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
-            <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
-              <div className="w-14 h-14 rounded-full bg-primary flex items-center justify-center">
-                <div className="w-0 h-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-l-[16px] border-l-white ml-1" />
-              </div>
-              <p className="text-white text-[15px] font-bold">
-                How DOSE Academy works — 90 sec
-              </p>
-              <p className="text-[#5A8888] text-xs">
-                Animated explainer · Coming soon
-              </p>
-            </div>
-          </div>
+        <div className="max-w-[720px] mx-auto rounded-2xl overflow-hidden shadow-lg">
+          <video
+            className="w-full"
+            controls
+            poster=""
+            preload="metadata"
+          >
+            <source src="/videos/dose-onboarding.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <p className="text-center text-sm font-bold text-foreground py-3 bg-muted">
+            How DOSE Academy works — 25 sec
+          </p>
         </div>
       </section>
 
