@@ -10,6 +10,7 @@ import About from "./pages/About";
 import HowItWorks from "./pages/HowItWorks";
 import NotFound from "./pages/NotFound";
 import TermsOfService from "./pages/TermsOfService";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import SlickChat from "./components/SlickChat";
 
 export const SlickChatContext = createContext<{ open: () => void }>({ open: () => {} });
