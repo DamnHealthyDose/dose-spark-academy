@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2025 DOSE Academy. All rights reserved. COPPA Compliant • FERPA Compliant</p>
+          <p>© 2025 DOSE Academy. All rights reserved. COPPA Compliant • </p>
         </div>
       </div>
     </footer>
