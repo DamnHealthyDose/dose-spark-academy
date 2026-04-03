@@ -9,6 +9,7 @@ import Pricing from "./pages/Pricing";
 import About from "./pages/About";
 import HowItWorks from "./pages/HowItWorks";
 import NotFound from "./pages/NotFound";
+import TermsOfService from "./pages/TermsOfService";
 import SlickChat from "./components/SlickChat";
 
 export const SlickChatContext = createContext<{ open: () => void }>({ open: () => {} });
@@ -30,6 +31,7 @@ const App = () => {
               <Route path="/pricing" element={<Pricing />} />
               <Route path="/how-it-works" element={<HowItWorks />} />
               <Route path="/about" element={<About />} />
+              <Route path="/terms-of-service" element={<TermsOfService />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
