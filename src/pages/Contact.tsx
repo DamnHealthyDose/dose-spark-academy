@@ -10,14 +10,6 @@ const Contact = () => {
       
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-4 max-w-3xl">
-          <div className="mb-8 rounded-2xl overflow-hidden">
-            <img 
-              src={doseTeam} 
-              alt="The DOSE Team - Building the future of ADHD crisis intervention" 
-              className="w-full h-auto"
-            />
-          </div>
-
           <div className="text-center mb-10">
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">Contact DOSE Academy</h1>
             <p className="text-lg text-muted-foreground">
