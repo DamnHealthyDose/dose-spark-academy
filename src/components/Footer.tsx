@@ -45,7 +45,7 @@ const Footer = () => {
               <li><a href="https://academy.getdose.app/about" className="hover:text-primary transition-colors">About Us</a></li>
               <li><a href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</a></li>
               <li><a href="/terms-of-service" className="hover:text-primary transition-colors">Terms of Service</a></li>
-              <li><a href="https://www.getdose.app/contact" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Contact</a></li>
+              <li><a href="/contact" className="hover:text-primary transition-colors">Contact</a></li>
             </ul>
           </div>
         </div>
