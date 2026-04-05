@@ -32,7 +32,7 @@ const Contact = () => {
             <div>
               <h2 className="text-xl font-semibold text-primary mb-4">Investor Resources</h2>
               <a 
-                href="https://www.getdose.app/investors"
+                href="https://docs.google.com/document/d/1aaR9-48rbk9eH0bnidiSzHSUA9YD6XXV/edit"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 border border-border rounded-full text-foreground hover:bg-accent transition-colors"
