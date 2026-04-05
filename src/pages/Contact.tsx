@@ -48,7 +48,15 @@ const Contact = () => {
               We typically respond within 24–48 hours.
             </p>
           </div>
-        </div>
+          </div>
+
+          <div className="mb-8 rounded-2xl overflow-hidden">
+            <img 
+              src={doseTeam} 
+              alt="The DOSE Team - Building the future of ADHD crisis intervention" 
+              className="w-full h-auto"
+            />
+          </div>
       </main>
 
       <Footer />
