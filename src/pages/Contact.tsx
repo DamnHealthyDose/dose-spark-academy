@@ -50,7 +50,7 @@ const Contact = () => {
           </div>
           </div>
 
-          <div className="mb-8 rounded-2xl overflow-hidden">
+          <div className="mb-8 rounded-2xl overflow-hidden max-w-md mx-auto">
             <img 
               src={doseTeam} 
               alt="The DOSE Team - Building the future of ADHD crisis intervention" 
