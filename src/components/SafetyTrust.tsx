@@ -18,8 +18,8 @@ const safetyFeatures = [
   },
   {
     icon: Heart,
-    title: "Crisis Support",
-    description: "24/7 monitoring with professional escalation protocols",
+    title: "In-the-Moment Support",
+    description: "Neurodivergent tools when you need them!",
   },
 ];
 
