@@ -19,7 +19,7 @@ const integrationFeatures = [
   },
   {
     icon: Award,
-    title: "IEP/504 Tracking",
+    title: "Coming Soon: IEP/504 Tracking",
     description: "Monitor your accommodations and advocate for yourself",
   },
 ];
